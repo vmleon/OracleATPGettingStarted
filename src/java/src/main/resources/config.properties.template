@@ -1,0 +1,3 @@
+db.url=jdbc:oracle:thin:@atphol_HIGH?TNS_ADMIN=/path/to//Wallet
+db.user=ADMIN
+db.password=Welcome_123!
