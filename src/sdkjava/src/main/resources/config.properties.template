@@ -1,0 +1,4 @@
+CONFIG_LOCATION=~/.oci/config
+COMPARTMENT_OCID=ocid1.compartment.oc1..blablabla
+CONFIG_PROFILE=DEFAULT
+REGION_ID=uk-london-1

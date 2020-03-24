@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.oracle.oci.sdk:oci-java-sdk-full:1.15.1'
+    implementation 'javax.activation:javax.activation-api:1.2.0'
+    implementation 'org.slf4j:slf4j-nop:1.7.30'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.5.2'
+
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.5.2'
+}
+
+application {
+    mainClassName = 'page.cateam.App'
+}
+
+test {
+    useJUnitPlatform()
+}
