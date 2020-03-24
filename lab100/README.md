@@ -1,4 +1,4 @@
-# Lab 100: Create an Autonomous Database
+# Lab 100: Create an Autonomous Database
 
 ## Before you start
 
@@ -10,4 +10,4 @@
 
 ---
 
-[home](../README.md) | [**NEXT >>>>>**](../lab600/README.md)
+[home](../README.md) | [**NEXT >>>>>**](../lab200/README.md)

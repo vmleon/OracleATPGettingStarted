@@ -1,4 +1,4 @@
-# Lab 700: Building containers Using ATP
+# Lab 700: Building containers Using ATP
 
 ## Before you start
 

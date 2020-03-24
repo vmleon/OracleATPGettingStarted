@@ -1,4 +1,4 @@
-# Lab 500: JAVA App Using ATP
+# Lab 500: JAVA App Using ATP
 
 ## Before you start
 

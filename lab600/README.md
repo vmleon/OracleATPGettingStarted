@@ -1,4 +1,4 @@
-# Lab 600: Programmatically Talking to Oracle Cloud
+# Lab 600: Programmatically Talking to Oracle Cloud
 
 ## Before you start
 

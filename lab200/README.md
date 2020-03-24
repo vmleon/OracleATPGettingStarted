@@ -1,4 +1,4 @@
-# Lab 200: Set up a Virtual Machine
+# Lab 200: Set up a Virtual Machine
 
 ## Before you start
 
