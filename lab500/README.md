@@ -1,5 +1,7 @@
 # Lab 500: JAVA App Using ATP
 
+Learn how to build a linux Java application server and connect it to an Oracle Autonomous database.
+
 ## Before you start
 
 We need the Java Development Kit (JDK) and I'm using version 13 for this workshop. You can install it with this command
