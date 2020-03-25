@@ -64,11 +64,6 @@ At this point, you are ready to start learning!
 - Execute your SDK JAVA app
 - Explore the code
 
-[Lab 700: Building containers Using ATP](lab700/README.md)
-
-- Build your Node app container
-- Run it locally
-
 ---
 
 ## Let's Get Started!

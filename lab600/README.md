@@ -8,6 +8,12 @@
 
 ## It works
 
+xxx
+
+xxx
+
+Congratulations! You are ready to go to the next Lab!
+
 ---
 
-[**<< Prev**](../lab500/README.md) | [home](../README.md) | [**NEXT >>>>>**](../lab700/README.md)
+[**<< Prev**](../lab500/README.md) | [home](../README.md) | [**APPENDIX >>>>>**](../appendix/README.md)
