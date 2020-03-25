@@ -4,6 +4,8 @@
 
 This workshop walks you through all the steps to get started using the **Oracle Autonomous Transaction Processing** (ATP).
 
+Oracle Autonomous Transaction Processing delivers a self-driving, self-securing, self-repairing database service that can instantly scale to meet demands of mission critical transaction processing and mixed workload applications.
+
 ## Who Should Read This Workshop
 
 You want to **develop applications** that connect to Oracle Databases in the Cloud.
