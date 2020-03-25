@@ -27,7 +27,7 @@ Get the value from `COMPARTMENT_OCID` from
 ![Compartment OCID](../images/compartment_2.png)
 ![Compartment OCID](../images/compartment_3.png)
 
-Edit the properties file so it match your settings. Make sure you change the `COMPARTMENT_OCID` and `REGION_ID`, everything else should be fine but make sure it match your configuration.
+Edit the properties file so it matches your settings. Make sure you change the `COMPARTMENT_OCID` and `REGION_ID`, everything else should be fine but make sure it matches your configuration.
 
 `vim src/main/resources/config.properties`
 
@@ -38,7 +38,7 @@ CONFIG_PROFILE=DEFAULT
 REGION_ID=uk-london-1
 ```
 
-This is a Gradle project, what means we can install dependencies and run the code all in one simple command.
+This is a Gradle project, which means we can install dependencies and run the code all in one simple command.
 
 ```bash
 ./gradlew run

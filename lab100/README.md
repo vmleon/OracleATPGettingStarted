@@ -8,6 +8,7 @@ Go to the ATP menu:
 ![Menu ATP](./../images/menu_atp.png)
 
 Check you are in the **root compartment** that is fine for testing.
+
 > Compartments are a logical separation of resources to attach roles and permissions. It will make possible to create your team structure in compartments so you know who manage what resources. Not necessary at this stage.
 
 And click in **Create Autonomous Database** button.
@@ -21,9 +22,9 @@ Make sure you select **Transaction Processing** and **Shared Infrastructure**.
 
 You can select **Always Free** configuration to start enjoying your Free Autonomous Database.
 
-CPU and Storage is good with default values, the same for the database version.
+CPU and Storage are good with default values, the same for the database version.
 
-Auto scaling you can leave it off but it is a nice feature as the ATP database will scale if the workload is increasing and scale down automatically if the workload reduce. Zero downtime during the process. It's cool, isn't it?
+Auto scaling you can leave it off but it is a nice feature as the ATP database will scale if the workload is increasing and scale down automatically if the workload reduces. Zero downtime during the process. It's cool, isn't it?
 
 ![ATP Creation](../images/atp_creation_2.png)
 
@@ -50,7 +51,7 @@ Let's download that Wallet file and store it in your machine as we will use it l
 Click in **DB Connection** button.
 ![ATP DB Connection ](../images/atp_dbconnection.png)
 
-Click **Download Wallet** button. Notice the **TNS Name** value at the buttom of this popup window as well.
+Click **Download Wallet** button. Notice the **TNS Name** value at the bottom of this popup window as well.
 ![ATP Download Wallet](../images/atp_download_wallet.png)
 
 Set a **password** for the zip file and click **Download** button.
@@ -81,7 +82,7 @@ Run the following SQL query `SELECT banner FROM v$version`.
 
 You just created an Autonomous Database with the latest features of Oracle Databases.
 
-You also downloaded the file needed to stablish connections from your SQL Developer or programming language.
+You also downloaded the file needed to establish connections from your SQL Developer or programming language.
 
 Finally, you run SQL Developer Web to run queries without installing or configuring anything.
 

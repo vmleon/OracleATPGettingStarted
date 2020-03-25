@@ -19,7 +19,7 @@ Learn about HTTP security with [Oracle Cloud Web Application Firewall (Workshop)
 
 ### Lab400
 
-Running node app give me `Error: DPI-1047: Cannot locate a 64-bit Oracle Client library`
+Running node app gives me `Error: DPI-1047: Cannot locate a 64-bit Oracle Client library`
 
 - LD_LIBRARY_PATH not exported properly
 - Instant Client 12.2 not installed on `/opt/oracle`

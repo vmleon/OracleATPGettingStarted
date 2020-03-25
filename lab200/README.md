@@ -1,10 +1,10 @@
 # Lab 200: Set up a Virtual Machine
 
-Create a virtual machine in Oracle cloud allow you to have a consistent enviroment where you can test applications, and manage operations. It is the fundation of any system. And with Oracle Cloud it is very easy.
+Create a virtual machine in Oracle cloud allow you to have a consistent environment where you can test applications, and manage operations. It is the foundation of any system. And with Oracle Cloud it is very easy.
 
 ## Before you start
 
-We are going to SSH into our new linux instance. For that we need public and private SSH key.
+We are going to SSH into our new Linux instance. For that we need public and private SSH key.
 
 If you don't have one, please go ahead and follow the steps on the official documentation:
 
@@ -12,7 +12,7 @@ Oracle Cloud Docs: [Connecting to an Instance](https://docs.cloud.oracle.com/en-
 
 ## Create your Virtual Cloud Network
 
-Network is the fundation of any cloud resource. They all need to be connected and they live on a **Virtual Cloud Network (VCN)**.
+Network is the foundation of any cloud resource. They all need to be connected and they live on a **Virtual Cloud Network (VCN)**.
 
 Let's create our VCN
 ![VCN Creation](../images/vcn_1.png)
@@ -33,9 +33,9 @@ Instantly your Virtual Cloud Network will be available.
 
 Ready to create your new Linux machine in the cloud.
 
-## Create your linux instance
+## Create your Linux instance
 
-Let's create our linux machine in Oracle Cloud
+Let's create our Linux machine in Oracle Cloud
 
 ![VM creation](../images/vm_1.png)
 
@@ -45,7 +45,7 @@ Click **Create Instance** button
 Set **Name your instance** field and make sure you select **Virtual Machine** Instance Type
 ![VM creation](../images/vm_3.png)
 
-In the **Configure networking** section make sure you select the **VCN** you created on the previus step and also make sure you select the **PUBLIC Subnet**. My network is called _ukdatamart_.
+In the **Configure networking** section make sure you select the **VCN** you created on the previous step and also make sure you select the **PUBLIC Subnet**. My network is called _ukdatamart_.
 
 > It is very important you select the **PUBLIC SUBNET** or you won't be able to connect through SSH into your virtual machine.
 
@@ -62,7 +62,6 @@ It will take few seconds, sometimes few minutes to provision the new virtual mac
 Soon you will see the machine provisioned and the Public IP address in the details section.
 ![VM creation](../images/vm_7.png)
 
-
 ## It works
 
 SSH into the machine:
@@ -71,10 +70,10 @@ SSH into the machine:
 
 > Windows users: Download and configure [Putty](https://www.putty.org/)
 
-The connection process will ask you if you want to continue connection, aswer `yes` if all the information is correct.
+The connection process will ask you if you want to continue the connection, answer `yes` if all the information is correct.
 
 > If you have your public key in other location than the default one:
-> 
+>
 > `ssh -i /path/to/public/key.pem opc@<public_IP>`
 
 You should see something like this:

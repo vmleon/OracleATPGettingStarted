@@ -1,6 +1,6 @@
 # Lab 500: JAVA App Using ATP
 
-Learn how to build a linux Java application server and connect it to an Oracle Autonomous database.
+Learn how to build a Linux Java application server and connect it to an Oracle Autonomous database.
 
 ## Before you start
 
@@ -10,7 +10,7 @@ We need the Java Development Kit (JDK) and I'm using version 13 for this worksho
 sudo yum install java-latest-openjdk -y
 ```
 
-Check eveything works
+Check everything works
 
 ```bash
 java --version

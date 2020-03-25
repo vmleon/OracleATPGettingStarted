@@ -34,14 +34,14 @@ At this point, you are ready to start learning!
 
 [Lab 100: Create an Autonomous Database](lab100/README.md)
 
-- Create you Autonomous Database
+- Create your Autonomous Database
 - Download your Wallet
 - Use Web SQL Developer
 
 [Lab 200: Set up a Virtual Machine](lab200/README.md)
 
 - Create your Virtual Cloud Network
-- Create your linux instance
+- Create your Linux instance
 
 [Lab 300: DevOps with ATP](lab300/README.md)
 
@@ -70,4 +70,4 @@ At this point, you are ready to start learning!
 
 Create your Autonomous Database: [**Go To Lab 100!**](./lab100/README.md)
 
-> If you have alreadt an Autonomous database, you can [Go to Lab 200](./lab200/README.md) directly.
+> If you have already an Autonomous database, you can [Go to Lab 200](./lab200/README.md) directly.

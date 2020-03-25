@@ -1,10 +1,10 @@
 # Lab 300: DevOps with ATP
 
-Autonomous Databases give you the oportunity to see metrics and other services like Machine Learning and Oracle Application Express. You can also interact with Oracle Cloud with a command line tool. We are going to explore it in this Lab.
+Autonomous Databases give you the opportunity to see metrics and other services like Machine Learning and Oracle Application Express. You can also interact with Oracle Cloud with a command line tool. We are going to explore it in this Lab.
 
 ## Before you start
 
-It is required that you are logged in the linux machine.
+It is required that you are logged in the Linux machine.
 
 ## Configure OCI command line tool
 
@@ -12,7 +12,7 @@ Learn more from the [official documentation](https://docs.cloud.oracle.com/en-us
 
 We are going to do a quick installation to get everything up and running.
 
-In your linux terminal, execute the following command to download and start the installation:
+In your Linux terminal, execute the following command to download and start the installation:
 
 ```bash
 bash -c "$(curl -L https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh)"
@@ -32,7 +32,7 @@ It should give you the version number of the OCI CLI tool.
 
 Before using the CLI, you must create a config file that contains the required credentials for working with Oracle Cloud Infrastructure.
 
-To have the CLI walk you through the first-time setup process, use the `oci setup config` command. The command prompts you for the information required for the config file and the API public/private keys. The setup dialog generates an API key pair and creates the config file.
+To have the CLI walk you through the first-time setup process, use the `oci setup config` command. The command prompts you for the information required for the config file and the API public/private keys. The setup dialogue generates an API key pair and creates the config file.
 
 We need some information that the config script will ask:
 
@@ -55,7 +55,8 @@ We are ready to run the config helper:
 ```bash
 oci setup config
 ```
-It will ask for User OCID, Tenancy OCID and region. For the region, I'm using `uk-london-1` but you can pick the one you have on the title bar here: 
+
+It will ask for User OCID, Tenancy OCID and region. For the region, I'm using `uk-london-1` but you can pick the one you have on the title bar here:
 ![Region](../images/region.png)
 
 Everything else, default values. Press `Enter` to accept default values.
@@ -131,6 +132,7 @@ Boom! A long JSON file is the output. Let's do some cleaning to see the names of
 ```bash
 oci db autonomous-database list -c <compartment_ocid> | jq '.data[]."display-name"'
 ```
+
 I got two database names. Magic!
 
 ```bash
@@ -146,7 +148,7 @@ oci -h
 
 ## Metrics of your Autonomous Database
 
-Comve back to your Oracle Cloud Web Console. In the details page of your Autonomous Database.
+Come back to your Oracle Cloud Web Console. In the details page of your Autonomous Database.
 
 ![Metrics](../images/metrics_1.png)
 
@@ -156,7 +158,7 @@ Scroll down to the bottom and see some generic metrics
 For more details, click on Performance Hub button at the top
 ![Metrics](../images/metrics_3.png)
 
-Performace Hub will give your more insights about what is happening inside your database
+Performance Hub will give your more insights about what is happening inside your database
 ![Metrics](../images/metrics_4.png)
 
 ## It works
