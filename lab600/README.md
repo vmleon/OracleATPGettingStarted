@@ -13,9 +13,7 @@ wget --content-disposition https://github.com/vmleon/OracleATPGettingStarted/blo
 Unzip the file and change the directory to `java`
 
 ```bash
-unzip sdkjava.zip
-
-cd sdkjava
+unzip sdkjava.zip && cd sdkjava
 ```
 
 There is a config file template we need to copy with the proper name to be picked by the application
@@ -24,12 +22,14 @@ There is a config file template we need to copy with the proper name to be picke
 cp src/main/resources/config.properties.template src/main/resources/config.properties
 ```
 
-Edit the file so it match your settings `vim src/main/resources/config.properties`. Make sure you change the `COMPARTMENT_OCID` and `REGION_ID`, everything else should be fine but make sure it match your configuration.
-
-Get this information from
+Get the value from `COMPARTMENT_OCID` from
 ![Compartment OCID](../images/compartment_1.png)
 ![Compartment OCID](../images/compartment_2.png)
 ![Compartment OCID](../images/compartment_3.png)
+
+Edit the properties file so it match your settings. Make sure you change the `COMPARTMENT_OCID` and `REGION_ID`, everything else should be fine but make sure it match your configuration.
+
+`vim src/main/resources/config.properties`
 
 ```properties
 CONFIG_LOCATION=~/.oci/config

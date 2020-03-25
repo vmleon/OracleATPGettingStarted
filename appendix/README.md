@@ -1,6 +1,6 @@
 # Appendix
 
-If you enjoy the workshop, give me a star on Github!
+If you enjoy the workshop, give me a star on Github: [click here](https://github.com/vmleon/OracleATPGettingStarted)!
 ![Github start](../images/github.png)
 
 Please, help us to improve. [Create an issue](https://github.com/vmleon/OracleATPGettingStarted/issues) if you think something is not quite right.
@@ -30,4 +30,4 @@ Running node app gives me `ORA-12154: TNS:could not resolve the connect identifi
 
 ---
 
-[**<< Prev**](../lab700/README.md) | [home](../README.md)
+[**<< Prev**](../lab600/README.md) | [home](../README.md)

@@ -27,9 +27,7 @@ wget --content-disposition https://github.com/vmleon/OracleATPGettingStarted/blo
 Unzip the file and change the directory to `java`
 
 ```bash
-unzip java.zip
-
-cd java
+unzip java.zip && cd java
 ```
 
 There is a config file template we need to copy with the proper name to be picked by the application

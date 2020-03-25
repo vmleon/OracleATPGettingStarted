@@ -161,10 +161,3 @@ Congratulations! You are ready to go to the next Lab!
 ---
 
 [**<< Prev**](../lab300/README.md) | [home](../README.md) | [**NEXT >>>>>**](../lab500/README.md)
-
-````
-
-```
-
-```
-````
