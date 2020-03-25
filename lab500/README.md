@@ -36,7 +36,7 @@ There is a config file template we need to copy with the proper name to be picke
 cp src/main/resources/config.properties.template src/main/resources/config.properties
 ```
 
-Edit the file so it match your settings `vim src/main/resources/config.properties`
+Edit the file so it matches your settings `vim src/main/resources/config.properties`
 
 ```properties
 db.url=jdbc:oracle:thin:@atpworkshop_HIGH?TNS_ADMIN=/home/opc/wallet/
@@ -44,7 +44,7 @@ db.user=ADMIN
 db.password=Welcome_123!
 ```
 
-This is a Gradle project, what means we can install dependencies and run the code all in one simple command.
+This is a Gradle project, which means we can install dependencies and run the code all in one simple command.
 
 ```bash
 ./gradlew run
