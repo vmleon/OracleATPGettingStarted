@@ -43,7 +43,7 @@ Your database is the most important part of your system. A security issue here c
 
 There are a lot of tools to help you with security like **Oracle Data Safe** to assess your overall configuration.
 
-Connecting to your database is one of the main concerns. Oracle implements a high-secured encrypted connection. The configuration is zipped in a file called **Wallet**.
+Autonomous Databases provides a TLS 1.2 encrypted secure connectivity for applications. In fact, using a secure encryption **wallet** is the only way to connect to an ATP service instance, ensuring every connection to your database is secure, regardless how it gets routed.
 
 Let's download that Wallet file and store it in your machine as we will use it later.
 

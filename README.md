@@ -42,12 +42,12 @@ At this point, you are ready to start learning!
 
 - Create your Virtual Cloud Network
 - Create your linux instance
-- Configure OCI command line tool
 
 [Lab 300: DevOps with ATP](lab300/README.md)
 
-- Metrics of your Autonomous Database
+- Configure OCI command line tool
 - Explore Autonomous database with the command line
+- Metrics of your Autonomous Database
 
 [Lab 400: Node.js App Using ATP](lab400/README.md)
 
